@@ -6,17 +6,17 @@ import StatsCards from "@/components/StatsCards";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-p2p-dark">
       <Navigation />
 
       {/* Главный контент */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Hero секция */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl font-bold text-white mb-4">
             Безопасный P2P обмен криптовалют
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Торгуйте напрямую с другими пользователями по лучшим курсам. Быстро,
             надежно и без лишних комиссий.
           </p>
@@ -42,27 +42,29 @@ const Index = () => {
 
         {/* Преимущества */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="text-center p-6 bg-white rounded-lg shadow-sm">
+          <div className="text-center p-6 bg-p2p-darker rounded-lg border border-p2p-gray">
             <div className="text-3xl mb-4">🔒</div>
-            <h3 className="text-lg font-semibold mb-2">Безопасность</h3>
-            <p className="text-gray-600">
+            <h3 className="text-lg font-semibold mb-2 text-white">
+              Безопасность
+            </h3>
+            <p className="text-gray-300">
               Эскроу-система и проверенные пользователи гарантируют безопасность
               сделок
             </p>
           </div>
 
-          <div className="text-center p-6 bg-white rounded-lg shadow-sm">
+          <div className="text-center p-6 bg-p2p-darker rounded-lg border border-p2p-gray">
             <div className="text-3xl mb-4">⚡</div>
-            <h3 className="text-lg font-semibold mb-2">Скорость</h3>
-            <p className="text-gray-600">
+            <h3 className="text-lg font-semibold mb-2 text-white">Скорость</h3>
+            <p className="text-gray-300">
               Мгновенное исполнение ордеров и быстрые переводы
             </p>
           </div>
 
-          <div className="text-center p-6 bg-white rounded-lg shadow-sm">
+          <div className="text-center p-6 bg-p2p-darker rounded-lg border border-p2p-gray">
             <div className="text-3xl mb-4">💰</div>
-            <h3 className="text-lg font-semibold mb-2">Выгода</h3>
-            <p className="text-gray-600">
+            <h3 className="text-lg font-semibold mb-2 text-white">Выгода</h3>
+            <p className="text-gray-300">
               Минимальные комиссии и лучшие курсы на рынке
             </p>
           </div>
